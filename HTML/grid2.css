@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    margin:auto;
+    max-width: 1300px;
+
+}
+.head{
+    background-color: rgb(73, 235, 15);
+    text-align: center;
+    padding:25px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.imges{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+
+}
